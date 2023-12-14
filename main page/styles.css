@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.mainBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #13131A;
+    width: 385px;
+    height: 812px;
+    flex-direction: column;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 16px 16px -7px rgba(9, 9, 9, 0.6);
+    -moz-box-shadow: 15px 16px 16px -7px rgba(9, 9, 9, 0.6);
+    box-shadow: 15px 16px 16px -7px rgba(9, 9, 9, 0.6);
+    gap: 10px;
+}
+
+.nameWebsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    top: 120px;
+    gap: 7px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 321px;
+    height: 56px;
+    flex-direction: column;
+}
+
+.inputBox {
+    background: #1E1E29;
+    width: 321px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #FAFAFA;
+    font-size: 18px;
+}
+
+.manualText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #939292;
+}
+
+.mainHeader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FAFAFA;
+    font-weight: 500;
+
+}
+
+.nameWebsiteBlue {
+    color: #8FB2F5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.theHintMenu {
+    display: flex;
+    flex-direction: column;
+    background: rgba(30, 30, 41, 1);
+    width: 321px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.4);
+    gap: 2px;
+    overflow: hidden;
+    max-height: 162px;
+    position: absolute;
+    top: 550px;
+}
+
+.hints {
+    background: rgba(59, 59, 84, 1);
+    width: 100%;
+    height: 54px;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px;
+    box-sizing: border-box;
+    color: #FAFAFA;
+    transition: all 0.3s ease;
+}
+.hints:hover
+{
+    font-size: 18px;
+    background: #18181f;
+}

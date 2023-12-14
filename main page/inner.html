@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <base href="{{site.baseurl}}"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="mainBox">
+    <div class="nameWebsite">
+        <img src="svgLogo.svg">
+        <span class="mainHeader">iWeather</span>
+    </div>
+    <div class="header">
+        <div class="greeting">
+            <span class="mainHeader">Welcome to</span>
+           <span class="nameWebsiteBlue">TypeWeather</span>
+        </div>
+        <span class="manualText">Choose a location to see the weather forecast</span>
+    </div>
+    <input type="text" class="inputBox text" id="inputBox" placeholder="Buscar local" >
+    <div id="theHintMenu" class="theHintMenu ">
+
+    </div>
+</div>
+<script src="../logic/weatherApi.js"></script>
+<script src="../logic/searchLogic.js"></script>
+</body>
+</html>
